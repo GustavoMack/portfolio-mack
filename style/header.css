@@ -1,0 +1,117 @@
+header {
+  width: 100vw;
+  height: 90vh;
+  padding-top: 8vh;
+  color: white;
+  padding-inline: 10vw;
+  display: flex;
+  user-select: none;
+}
+
+#algo {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 7vw;
+}
+
+.algo {
+  background-color: white;
+  width: 40vw;
+  color: black;
+  border-radius: 5ch;
+  padding: 6ch;
+  display: flex;
+  flex-direction: column;
+
+  & h2 {
+    font-size: 5.34rem;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 59, 59, 1) 0%,
+      rgba(163, 65, 65, 1) 54%,
+      rgba(92, 25, 25, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  & h3 {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+}
+
+#portifolio {
+  width: 100%;
+}
+
+#redes {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  margin-top: 15rem;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+}
+
+.redes {
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 2ch;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  transition: ease-in-out 0.2s;
+
+  & img {
+    width: 6vmin;
+    height: 6vmin;
+  }
+}
+
+#git:hover {
+  box-shadow: 0px 5px 15px rgba(0, 25, 70, 0.7);
+}
+
+#lin:hover {
+  box-shadow: 0px 5px 15px rgb(0, 89, 255, 0.7);
+}
+
+#wpp:hover {
+  box-shadow: 0px 5px 15px rgb(0, 255, 0, 0.65);
+}
+
+#tecs {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 7vw;
+}
+
+.tecs {
+  width: 13rem;
+  height: 13rem;
+  margin-block: 2vh;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+  & img {
+    width: 9rem;
+    height: 9rem;
+  }
+}
