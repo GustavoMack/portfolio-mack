@@ -95,14 +95,14 @@ header {
 #tecs {
   width: 30vw;
   display: flex;
+  padding-top: 7vmin;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
 .tecs {
-  width: 13rem;
-  height: 13rem;
+  width: 28vmin;
+  height: 28vmin;
   margin-block: 2vh;
   border-radius: 50%;
   display: flex;
@@ -111,13 +111,12 @@ header {
   background-color: rgb(245, 245, 245);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
   & img {
-    width: 9rem;
-    height: 9rem;
+    width: 17vmin;
+    height: 17vmin;
   }
 }
 
 .usadas {
-  width: 13rem;
   background-color: rgb(170, 65, 170);
   border-radius: 1ch;
   display: flex;
@@ -125,7 +124,9 @@ header {
   margin-bottom: 8%;
 
   & p {
-    margin: 5%;
+    margin-block: 2.2vmin;
+    margin-inline: 1vmin;
+    font-size: 2vmin;
     font-weight: 600;
   }
 }
