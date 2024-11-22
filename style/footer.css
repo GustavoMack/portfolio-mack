@@ -35,12 +35,12 @@ footer {
 }
 
 .ende {
-  height: 4rem;
   display: flex;
   align-items: center;
   object-fit: contain;
   flex-direction: row;
   margin-bottom: 20px;
+  overflow: hidden;
 
   & img {
     height: 100%;
@@ -49,11 +49,13 @@ footer {
 
   & .baixo {
     font-size: 1.2rem;
+    margin-bottom: 1vmin;
   }
 
   & .cima {
     font-size: 0.8rem;
     font-weight: 600;
+    margin-top: 1vmin;
     background: linear-gradient(
       135deg,
       rgba(255, 59, 59, 1) 0%,
@@ -65,9 +67,10 @@ footer {
   }
 
   & .button {
-    width: 45%;
-    height: 100%;
+    width: 20vmin;
+    height: 4.8vmin;
     border-radius: 1.4ch;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
