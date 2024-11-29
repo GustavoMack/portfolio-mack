@@ -13,6 +13,7 @@
         width: 100%;
 
         & #portifolio {
+          width: 100%
           & h2 {
             font-size: 11.6vmin;
             text-align: justify;
