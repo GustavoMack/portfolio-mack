@@ -38,7 +38,8 @@ section {
   align-items: center;
   justify-content: center;
   padding-inline: 7rem;
-  padding-top: 3rem;
+  text-align: justify;
+  padding-block: 3rem;
   border: 1px solid rgba(130, 130, 130, 0.15);
   border-radius: 1ch;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
@@ -163,4 +164,8 @@ section {
   & p:hover {
     background-color: rgb(150, 50, 50);
   }
+}
+
+.carrosel {
+  display: none;
 }
