@@ -12,10 +12,10 @@
       & .algo {
         width: 100%;
 
-        & #portifolio {
+        & #portifolio {
+
           & h2 {
-            font-size: 11.6vmin;
-            text-align: justify;
+            font-size: 10vmin;
           }
         }
       }
