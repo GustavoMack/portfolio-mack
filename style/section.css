@@ -43,38 +43,6 @@ section {
   border: 1px solid rgba(130, 130, 130, 0.15);
   border-radius: 1ch;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
-
-  & #skills {
-    height: 20vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  & .skills {
-    height: 8vmin;
-    width: 8vmin;
-    margin-inline: 2rem;
-    border-radius: 3ch;
-    overflow: hidden;
-    background: rgb(255, 59, 59);
-    background: linear-gradient(
-      135deg,
-      rgba(255, 59, 59, 1) 0%,
-      rgba(163, 65, 65, 1) 54%,
-      rgba(92, 25, 25, 1) 100%
-    );
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    & img {
-      width: 5vmin;
-      height: 5vmin;
-    }
-  }
 }
 
 #ancor {

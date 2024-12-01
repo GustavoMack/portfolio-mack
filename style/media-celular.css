@@ -13,7 +13,6 @@
         width: 100%;
 
         & #portifolio {
-
           & h2 {
             font-size: 10vmin;
           }
@@ -85,7 +84,6 @@
           width: 17vmin;
           height: 17vmin;
         }
-
       }
     }
 
@@ -93,10 +91,28 @@
       margin-top: 15vmin;
       margin-bottom: 0;
     }
+
+    & #skills {
+      display: flex;
+      flex-wrap: wrap;
+
+      & .skills {
+        width: 30vmin;
+        height: 30vmin;
+        margin-block: 2%;
+      }
+    }
+
+    .img-html {
+      width: 80%;
+    }
+
+    .img-css {
+      width: 80%;
+    }
   }
 
   footer {
-
     margin: 0;
 
     & #contatos {
