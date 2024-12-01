@@ -1,4 +1,15 @@
 @media (max-width: 480px) {
+  nav {
+    & .nav {
+      padding-inline: 0;
+      padding-left: 5%;
+
+      & img {
+        width: 50%;
+      }
+    }
+  }
+
   header {
     padding: 0;
     box-sizing: border-box;
